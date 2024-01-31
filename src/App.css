@@ -1,0 +1,69 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10rem auto;
+}
+
+.addUser {
+  display: flex;
+  gap: 20px;
+}
+
+.displayUsers {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+
+.displayUsers div {
+  width: 250px;
+  height: 150px;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.input {
+  padding: 10px;
+  width: 10rem;
+  margin-right: 10px;
+  border-radius: 7px;
+  border: 1px solid gray;
+  outline: none;
+}
+
+.user-name {
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  width: 8rem;
+  padding: 9px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 7px;
+  border: 1px solid #000;
+  font-size: 15px;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.name{
+  color: #3D9D3F;
+}
